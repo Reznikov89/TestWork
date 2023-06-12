@@ -45,10 +45,10 @@ ____
 
 Клонировать репозиторий и перейти в него в командной строке:
 
-> <https://github.com/Reznikov89/TestWork.git>
+- <https://github.com/Reznikov89/TestWork>
 
->перейти в дерикторию cd task1 или cd task2
+- перейти в дерикторию cd task1 или cd task2
 
->выполнить команду docker-compose up
+- выполнить команду docker-compose up
 
 
