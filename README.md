@@ -45,7 +45,7 @@ ____
 
 Клонировать репозиторий и перейти в него в командной строке:
 
-- <https://github.com/Reznikov89/TestWork>
+- https://github.com/Reznikov89/TestWork
 
 - перейти в дерикторию cd task1 или cd task2
 
