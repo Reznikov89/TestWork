@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:latest
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: your_username
+      POSTGRES_PASSWORD: your_password
+      POSTGRES_DB: your_database_name
+  web:
+    build: .
+    ports:
+      - "3001:5000"
+    depends_on:
+      - db
+volumes:
+  db_data:
